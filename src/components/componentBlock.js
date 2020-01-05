@@ -3,7 +3,7 @@ import React from "react";
 function ComponentBlock(props) {
   return (
     <div className="componentContainer">
-      <p className="componentText">82, Loss</p>
+      <p className="componentText">{props.number}, Loss</p>
       <style jsx>{`
         div.componentContainer {
           display: flex;
